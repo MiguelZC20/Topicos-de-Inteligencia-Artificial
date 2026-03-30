@@ -1,0 +1,5 @@
+# Depedencias para el desarrollo del proyecto
+pandas
+openpyxl 
+numpy
+folium
