@@ -1,0 +1,3407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e606fb14a7a51ef5d2e167007a97f289 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e606fb14a7a51ef5d2e167007a97f289" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e606fb14a7a51ef5d2e167007a97f289 = L.map(
+                "map_e606fb14a7a51ef5d2e167007a97f289",
+                {
+                    center: [24.79620883, -107.40260635000003],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_663f5d5b8d59dcb9678dfede1504bbfa = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_663f5d5b8d59dcb9678dfede1504bbfa.addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+            var circle_marker_aebd95b75ac3705cf92a86ab98babb2e = L.circleMarker(
+                [24.774908, -107.309857],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_356f5845b16c1e5fc36f075b17cb9c19 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_36ee2dc46394370e1d09bc55c53ce4ae = $(`<div id="html_36ee2dc46394370e1d09bc55c53ce4ae" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Centro de Distribución 1</b><br>             <b>Tipo:</b> Centro de Distribución<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.774908<br>             <b>Longitud:</b> -107.309857         </div>         </div>`)[0];
+                popup_356f5845b16c1e5fc36f075b17cb9c19.setContent(html_36ee2dc46394370e1d09bc55c53ce4ae);
+            
+        
+
+        circle_marker_aebd95b75ac3705cf92a86ab98babb2e.bindPopup(popup_356f5845b16c1e5fc36f075b17cb9c19)
+        ;
+
+        
+    
+    
+            circle_marker_aebd95b75ac3705cf92a86ab98babb2e.bindTooltip(
+                `<div>
+                     Centro de Distribución 1 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ad0265f9902818160673e2889c300746 = L.circleMarker(
+                [24.846399, -107.380268],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_df4bbefba87fb7d732e14e4582f22570 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_05b3761d94ef4f2e9d02147f2862fecd = $(`<div id="html_05b3761d94ef4f2e9d02147f2862fecd" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Centro de Distribución 2</b><br>             <b>Tipo:</b> Centro de Distribución<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.846399<br>             <b>Longitud:</b> -107.380268         </div>         </div>`)[0];
+                popup_df4bbefba87fb7d732e14e4582f22570.setContent(html_05b3761d94ef4f2e9d02147f2862fecd);
+            
+        
+
+        circle_marker_ad0265f9902818160673e2889c300746.bindPopup(popup_df4bbefba87fb7d732e14e4582f22570)
+        ;
+
+        
+    
+    
+            circle_marker_ad0265f9902818160673e2889c300746.bindTooltip(
+                `<div>
+                     Centro de Distribución 2 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_59af0905a4dbc81bd9ef7dd9236ba957 = L.circleMarker(
+                [24.731204, -107.468801],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_017172559aeefe4bbd94762224b51ae4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0dc5367d52c32b46312ff11afafb94bc = $(`<div id="html_0dc5367d52c32b46312ff11afafb94bc" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Centro de Distribución 3</b><br>             <b>Tipo:</b> Centro de Distribución<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.731204<br>             <b>Longitud:</b> -107.468801         </div>         </div>`)[0];
+                popup_017172559aeefe4bbd94762224b51ae4.setContent(html_0dc5367d52c32b46312ff11afafb94bc);
+            
+        
+
+        circle_marker_59af0905a4dbc81bd9ef7dd9236ba957.bindPopup(popup_017172559aeefe4bbd94762224b51ae4)
+        ;
+
+        
+    
+    
+            circle_marker_59af0905a4dbc81bd9ef7dd9236ba957.bindTooltip(
+                `<div>
+                     Centro de Distribución 3 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f3059fc288bebd300c239bb0ed62424d = L.circleMarker(
+                [24.711617, -107.326765],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_68b7b4dff17fb7509f692d2ed2441e38 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fe3b76baeb8cc31dd9044d6b36eff05d = $(`<div id="html_fe3b76baeb8cc31dd9044d6b36eff05d" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Centro de Distribución 4</b><br>             <b>Tipo:</b> Centro de Distribución<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.711617<br>             <b>Longitud:</b> -107.326765         </div>         </div>`)[0];
+                popup_68b7b4dff17fb7509f692d2ed2441e38.setContent(html_fe3b76baeb8cc31dd9044d6b36eff05d);
+            
+        
+
+        circle_marker_f3059fc288bebd300c239bb0ed62424d.bindPopup(popup_68b7b4dff17fb7509f692d2ed2441e38)
+        ;
+
+        
+    
+    
+            circle_marker_f3059fc288bebd300c239bb0ed62424d.bindTooltip(
+                `<div>
+                     Centro de Distribución 4 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_381ed8184d04f845133a4e3f9689a6dc = L.circleMarker(
+                [24.820223, -107.358385],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_315368f3a1494032e1a3c0fd6891096e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_13455648afe280e66cce1dcf60d8fa32 = $(`<div id="html_13455648afe280e66cce1dcf60d8fa32" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Centro de Distribución 5</b><br>             <b>Tipo:</b> Centro de Distribución<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.820223<br>             <b>Longitud:</b> -107.358385         </div>         </div>`)[0];
+                popup_315368f3a1494032e1a3c0fd6891096e.setContent(html_13455648afe280e66cce1dcf60d8fa32);
+            
+        
+
+        circle_marker_381ed8184d04f845133a4e3f9689a6dc.bindPopup(popup_315368f3a1494032e1a3c0fd6891096e)
+        ;
+
+        
+    
+    
+            circle_marker_381ed8184d04f845133a4e3f9689a6dc.bindTooltip(
+                `<div>
+                     Centro de Distribución 5 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_88bb01b9c137be820fc336cd280037b2 = L.circleMarker(
+                [24.704117, -107.306018],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_ffe386251d37163c9cd78d4ba5d59d50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_83fd1849b1637b92279149a5d0a4cc39 = $(`<div id="html_83fd1849b1637b92279149a5d0a4cc39" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Centro de Distribución 6</b><br>             <b>Tipo:</b> Centro de Distribución<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.704117<br>             <b>Longitud:</b> -107.306018         </div>         </div>`)[0];
+                popup_ffe386251d37163c9cd78d4ba5d59d50.setContent(html_83fd1849b1637b92279149a5d0a4cc39);
+            
+        
+
+        circle_marker_88bb01b9c137be820fc336cd280037b2.bindPopup(popup_ffe386251d37163c9cd78d4ba5d59d50)
+        ;
+
+        
+    
+    
+            circle_marker_88bb01b9c137be820fc336cd280037b2.bindTooltip(
+                `<div>
+                     Centro de Distribución 6 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f122917e8f08b126b6c41d8b6a06aca6 = L.circleMarker(
+                [24.866489, -107.457532],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_346cd04a6b686cdb0a015336c2bbf2d5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6ba699d4485aee57a8174fa0f4cdbc3 = $(`<div id="html_c6ba699d4485aee57a8174fa0f4cdbc3" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Centro de Distribución 7</b><br>             <b>Tipo:</b> Centro de Distribución<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.866489<br>             <b>Longitud:</b> -107.457532         </div>         </div>`)[0];
+                popup_346cd04a6b686cdb0a015336c2bbf2d5.setContent(html_c6ba699d4485aee57a8174fa0f4cdbc3);
+            
+        
+
+        circle_marker_f122917e8f08b126b6c41d8b6a06aca6.bindPopup(popup_346cd04a6b686cdb0a015336c2bbf2d5)
+        ;
+
+        
+    
+    
+            circle_marker_f122917e8f08b126b6c41d8b6a06aca6.bindTooltip(
+                `<div>
+                     Centro de Distribución 7 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cad30113b561cee617366c5e37d6a95d = L.circleMarker(
+                [24.736365, -107.463319],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_d059c893516e165d0eea6835f1642153 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_62ee594b473e4cecb77b70ff1b2b3d61 = $(`<div id="html_62ee594b473e4cecb77b70ff1b2b3d61" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Centro de Distribución 8</b><br>             <b>Tipo:</b> Centro de Distribución<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.736365<br>             <b>Longitud:</b> -107.463319         </div>         </div>`)[0];
+                popup_d059c893516e165d0eea6835f1642153.setContent(html_62ee594b473e4cecb77b70ff1b2b3d61);
+            
+        
+
+        circle_marker_cad30113b561cee617366c5e37d6a95d.bindPopup(popup_d059c893516e165d0eea6835f1642153)
+        ;
+
+        
+    
+    
+            circle_marker_cad30113b561cee617366c5e37d6a95d.bindTooltip(
+                `<div>
+                     Centro de Distribución 8 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3df8b09b24215f874a071f864d35b565 = L.circleMarker(
+                [24.760848, -107.395049],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_17b7e26cf756a7bc12dcc119b0e90cfb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2fb4f049187f1194af17d8062522c390 = $(`<div id="html_2fb4f049187f1194af17d8062522c390" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Centro de Distribución 9</b><br>             <b>Tipo:</b> Centro de Distribución<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.760848<br>             <b>Longitud:</b> -107.395049         </div>         </div>`)[0];
+                popup_17b7e26cf756a7bc12dcc119b0e90cfb.setContent(html_2fb4f049187f1194af17d8062522c390);
+            
+        
+
+        circle_marker_3df8b09b24215f874a071f864d35b565.bindPopup(popup_17b7e26cf756a7bc12dcc119b0e90cfb)
+        ;
+
+        
+    
+    
+            circle_marker_3df8b09b24215f874a071f864d35b565.bindTooltip(
+                `<div>
+                     Centro de Distribución 9 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d7a9b7cacc2ce3a326c4c9340f96cd6 = L.circleMarker(
+                [24.786389, -107.441754],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.95, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_82e39678f3b2acb0d8e7caf7a6911db1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cbce15db4b17cbdc34f971487cdccc47 = $(`<div id="html_cbce15db4b17cbdc34f971487cdccc47" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Centro de Distribución 10</b><br>             <b>Tipo:</b> Centro de Distribución<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.786389<br>             <b>Longitud:</b> -107.441754         </div>         </div>`)[0];
+                popup_82e39678f3b2acb0d8e7caf7a6911db1.setContent(html_cbce15db4b17cbdc34f971487cdccc47);
+            
+        
+
+        circle_marker_6d7a9b7cacc2ce3a326c4c9340f96cd6.bindPopup(popup_82e39678f3b2acb0d8e7caf7a6911db1)
+        ;
+
+        
+    
+    
+            circle_marker_6d7a9b7cacc2ce3a326c4c9340f96cd6.bindTooltip(
+                `<div>
+                     Centro de Distribución 10 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c1930b8a0851688c97cfced9423bb561 = L.circleMarker(
+                [24.822371, -107.472101],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_21637b99057940aacce70b38baf01966 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eaeaa535876211af29902e025e10e96b = $(`<div id="html_eaeaa535876211af29902e025e10e96b" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 1</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.822371<br>             <b>Longitud:</b> -107.472101         </div>         </div>`)[0];
+                popup_21637b99057940aacce70b38baf01966.setContent(html_eaeaa535876211af29902e025e10e96b);
+            
+        
+
+        circle_marker_c1930b8a0851688c97cfced9423bb561.bindPopup(popup_21637b99057940aacce70b38baf01966)
+        ;
+
+        
+    
+    
+            circle_marker_c1930b8a0851688c97cfced9423bb561.bindTooltip(
+                `<div>
+                     Tienda 1 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fce3889a79c86a9048b867b691ecec3a = L.circleMarker(
+                [24.758429, -107.426728],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_f879e7c319327f53d4fc019fea009dc8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_046dd00b37e71d1e24eafed16c21937f = $(`<div id="html_046dd00b37e71d1e24eafed16c21937f" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 2</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.758429<br>             <b>Longitud:</b> -107.426728         </div>         </div>`)[0];
+                popup_f879e7c319327f53d4fc019fea009dc8.setContent(html_046dd00b37e71d1e24eafed16c21937f);
+            
+        
+
+        circle_marker_fce3889a79c86a9048b867b691ecec3a.bindPopup(popup_f879e7c319327f53d4fc019fea009dc8)
+        ;
+
+        
+    
+    
+            circle_marker_fce3889a79c86a9048b867b691ecec3a.bindTooltip(
+                `<div>
+                     Tienda 2 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d50b3c9d176b20e8792365ed31f83b01 = L.circleMarker(
+                [24.791214, -107.342965],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_7fec92dd49ced232e2861ad1201bbaf8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e3168ad3ff2feb769ced625a30cd92a3 = $(`<div id="html_e3168ad3ff2feb769ced625a30cd92a3" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 3</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.791214<br>             <b>Longitud:</b> -107.342965         </div>         </div>`)[0];
+                popup_7fec92dd49ced232e2861ad1201bbaf8.setContent(html_e3168ad3ff2feb769ced625a30cd92a3);
+            
+        
+
+        circle_marker_d50b3c9d176b20e8792365ed31f83b01.bindPopup(popup_7fec92dd49ced232e2861ad1201bbaf8)
+        ;
+
+        
+    
+    
+            circle_marker_d50b3c9d176b20e8792365ed31f83b01.bindTooltip(
+                `<div>
+                     Tienda 3 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c2bbbc6fc2ff5707fe80ff2dff08894c = L.circleMarker(
+                [24.739935, -107.397153],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_48d0914c2263f926b032af65af1f52c0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3ac15e031c983c5a9c7e68129a9cbb64 = $(`<div id="html_3ac15e031c983c5a9c7e68129a9cbb64" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 4</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.739935<br>             <b>Longitud:</b> -107.397153         </div>         </div>`)[0];
+                popup_48d0914c2263f926b032af65af1f52c0.setContent(html_3ac15e031c983c5a9c7e68129a9cbb64);
+            
+        
+
+        circle_marker_c2bbbc6fc2ff5707fe80ff2dff08894c.bindPopup(popup_48d0914c2263f926b032af65af1f52c0)
+        ;
+
+        
+    
+    
+            circle_marker_c2bbbc6fc2ff5707fe80ff2dff08894c.bindTooltip(
+                `<div>
+                     Tienda 4 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_da2da5864b27600364d190e3e31fff97 = L.circleMarker(
+                [24.818483, -107.49071],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_30aaf0ba58d243608de12bae19d24f7e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4bb69dacd01d3bb11f2c7e2498fcac7 = $(`<div id="html_c4bb69dacd01d3bb11f2c7e2498fcac7" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 5</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.818483<br>             <b>Longitud:</b> -107.490710         </div>         </div>`)[0];
+                popup_30aaf0ba58d243608de12bae19d24f7e.setContent(html_c4bb69dacd01d3bb11f2c7e2498fcac7);
+            
+        
+
+        circle_marker_da2da5864b27600364d190e3e31fff97.bindPopup(popup_30aaf0ba58d243608de12bae19d24f7e)
+        ;
+
+        
+    
+    
+            circle_marker_da2da5864b27600364d190e3e31fff97.bindTooltip(
+                `<div>
+                     Tienda 5 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_497995a82027cf69dfdb7eb783633630 = L.circleMarker(
+                [24.821509, -107.465895],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_382ec45e1e8b01d7bd585ff3cb716c8f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d681194586b2837190a378bb65ab82b = $(`<div id="html_6d681194586b2837190a378bb65ab82b" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 6</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.821509<br>             <b>Longitud:</b> -107.465895         </div>         </div>`)[0];
+                popup_382ec45e1e8b01d7bd585ff3cb716c8f.setContent(html_6d681194586b2837190a378bb65ab82b);
+            
+        
+
+        circle_marker_497995a82027cf69dfdb7eb783633630.bindPopup(popup_382ec45e1e8b01d7bd585ff3cb716c8f)
+        ;
+
+        
+    
+    
+            circle_marker_497995a82027cf69dfdb7eb783633630.bindTooltip(
+                `<div>
+                     Tienda 6 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd380b084a56fa173bab4788e378320f = L.circleMarker(
+                [24.71301, -107.310223],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_5665d91d89b4d6b7dbefbdfa0db965f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a24ef4c7a8a13b8c7b9299fafec0517 = $(`<div id="html_8a24ef4c7a8a13b8c7b9299fafec0517" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 7</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.713010<br>             <b>Longitud:</b> -107.310223         </div>         </div>`)[0];
+                popup_5665d91d89b4d6b7dbefbdfa0db965f8.setContent(html_8a24ef4c7a8a13b8c7b9299fafec0517);
+            
+        
+
+        circle_marker_bd380b084a56fa173bab4788e378320f.bindPopup(popup_5665d91d89b4d6b7dbefbdfa0db965f8)
+        ;
+
+        
+    
+    
+            circle_marker_bd380b084a56fa173bab4788e378320f.bindTooltip(
+                `<div>
+                     Tienda 7 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b9a9a936005d8a8404df7fd9113b61a = L.circleMarker(
+                [24.893126, -107.338321],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_729fcd482ed195e3ea70eacbd5d6ce58 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_729c0eec289030a39c3d91b597190cb7 = $(`<div id="html_729c0eec289030a39c3d91b597190cb7" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 8</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.893126<br>             <b>Longitud:</b> -107.338321         </div>         </div>`)[0];
+                popup_729fcd482ed195e3ea70eacbd5d6ce58.setContent(html_729c0eec289030a39c3d91b597190cb7);
+            
+        
+
+        circle_marker_4b9a9a936005d8a8404df7fd9113b61a.bindPopup(popup_729fcd482ed195e3ea70eacbd5d6ce58)
+        ;
+
+        
+    
+    
+            circle_marker_4b9a9a936005d8a8404df7fd9113b61a.bindTooltip(
+                `<div>
+                     Tienda 8 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c2cd5a1a050036f9b659580c4a0e818 = L.circleMarker(
+                [24.760923, -107.480466],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_0c6b1fb86fc4da70006aa97416a4bcb9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_742dd140d4d55cb272d9b0fdd7f84bd3 = $(`<div id="html_742dd140d4d55cb272d9b0fdd7f84bd3" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 9</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.760923<br>             <b>Longitud:</b> -107.480466         </div>         </div>`)[0];
+                popup_0c6b1fb86fc4da70006aa97416a4bcb9.setContent(html_742dd140d4d55cb272d9b0fdd7f84bd3);
+            
+        
+
+        circle_marker_5c2cd5a1a050036f9b659580c4a0e818.bindPopup(popup_0c6b1fb86fc4da70006aa97416a4bcb9)
+        ;
+
+        
+    
+    
+            circle_marker_5c2cd5a1a050036f9b659580c4a0e818.bindTooltip(
+                `<div>
+                     Tienda 9 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3fc389428f8b30aca7109ad7078adc6e = L.circleMarker(
+                [24.836847, -107.41197],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_9a26a1f3111d0f98565065c4778175d2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fec212f36f08d9ba586a18f29f0926cb = $(`<div id="html_fec212f36f08d9ba586a18f29f0926cb" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 10</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.836847<br>             <b>Longitud:</b> -107.411970         </div>         </div>`)[0];
+                popup_9a26a1f3111d0f98565065c4778175d2.setContent(html_fec212f36f08d9ba586a18f29f0926cb);
+            
+        
+
+        circle_marker_3fc389428f8b30aca7109ad7078adc6e.bindPopup(popup_9a26a1f3111d0f98565065c4778175d2)
+        ;
+
+        
+    
+    
+            circle_marker_3fc389428f8b30aca7109ad7078adc6e.bindTooltip(
+                `<div>
+                     Tienda 10 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cd2a4b1ccddc929d10d407c88e33a801 = L.circleMarker(
+                [24.724408, -107.400965],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_dcccbc6001b46c7554200039dc1f055c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bd1ca398642942787b69f588fb22f9c3 = $(`<div id="html_bd1ca398642942787b69f588fb22f9c3" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 11</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.724408<br>             <b>Longitud:</b> -107.400965         </div>         </div>`)[0];
+                popup_dcccbc6001b46c7554200039dc1f055c.setContent(html_bd1ca398642942787b69f588fb22f9c3);
+            
+        
+
+        circle_marker_cd2a4b1ccddc929d10d407c88e33a801.bindPopup(popup_dcccbc6001b46c7554200039dc1f055c)
+        ;
+
+        
+    
+    
+            circle_marker_cd2a4b1ccddc929d10d407c88e33a801.bindTooltip(
+                `<div>
+                     Tienda 11 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c9153076b44426535d7964cb3512baf2 = L.circleMarker(
+                [24.706878, -107.318136],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_86852e6c8f115e36c42579913d11ea0a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0f76c607135483a75418cef25ecbe833 = $(`<div id="html_0f76c607135483a75418cef25ecbe833" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 12</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.706878<br>             <b>Longitud:</b> -107.318136         </div>         </div>`)[0];
+                popup_86852e6c8f115e36c42579913d11ea0a.setContent(html_0f76c607135483a75418cef25ecbe833);
+            
+        
+
+        circle_marker_c9153076b44426535d7964cb3512baf2.bindPopup(popup_86852e6c8f115e36c42579913d11ea0a)
+        ;
+
+        
+    
+    
+            circle_marker_c9153076b44426535d7964cb3512baf2.bindTooltip(
+                `<div>
+                     Tienda 12 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a9b26721a5e426eac8056d01d61f5e47 = L.circleMarker(
+                [24.751756, -107.367496],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_e4fe9119d5022f51a998c9fe7bf78cf9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bb19b8431e609e3c710e5a2562a8639b = $(`<div id="html_bb19b8431e609e3c710e5a2562a8639b" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 13</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.751756<br>             <b>Longitud:</b> -107.367496         </div>         </div>`)[0];
+                popup_e4fe9119d5022f51a998c9fe7bf78cf9.setContent(html_bb19b8431e609e3c710e5a2562a8639b);
+            
+        
+
+        circle_marker_a9b26721a5e426eac8056d01d61f5e47.bindPopup(popup_e4fe9119d5022f51a998c9fe7bf78cf9)
+        ;
+
+        
+    
+    
+            circle_marker_a9b26721a5e426eac8056d01d61f5e47.bindTooltip(
+                `<div>
+                     Tienda 13 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5266b546e8cdfaad71bee09b07b06f46 = L.circleMarker(
+                [24.762342, -107.395986],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_830a4a70da93704dac8cdec8c7753db9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_935aa56a73e3220eb04a724d4565bae1 = $(`<div id="html_935aa56a73e3220eb04a724d4565bae1" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 14</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.762342<br>             <b>Longitud:</b> -107.395986         </div>         </div>`)[0];
+                popup_830a4a70da93704dac8cdec8c7753db9.setContent(html_935aa56a73e3220eb04a724d4565bae1);
+            
+        
+
+        circle_marker_5266b546e8cdfaad71bee09b07b06f46.bindPopup(popup_830a4a70da93704dac8cdec8c7753db9)
+        ;
+
+        
+    
+    
+            circle_marker_5266b546e8cdfaad71bee09b07b06f46.bindTooltip(
+                `<div>
+                     Tienda 14 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b2eb54e13ebd9ad446a48ba22a4862ce = L.circleMarker(
+                [24.809342, -107.463029],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_1f2d1ef223b88379c3d945022fd301c3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8637b1453721bc90381054c5b74e3f87 = $(`<div id="html_8637b1453721bc90381054c5b74e3f87" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 15</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.809342<br>             <b>Longitud:</b> -107.463029         </div>         </div>`)[0];
+                popup_1f2d1ef223b88379c3d945022fd301c3.setContent(html_8637b1453721bc90381054c5b74e3f87);
+            
+        
+
+        circle_marker_b2eb54e13ebd9ad446a48ba22a4862ce.bindPopup(popup_1f2d1ef223b88379c3d945022fd301c3)
+        ;
+
+        
+    
+    
+            circle_marker_b2eb54e13ebd9ad446a48ba22a4862ce.bindTooltip(
+                `<div>
+                     Tienda 15 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b7ebf2e46127ee6fa896590315f661b = L.circleMarker(
+                [24.893917, -107.344973],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_cd0280864fc79ec3fd8ac7a94acf9acf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_723e8f3637f4696614b4edd314ca8ac5 = $(`<div id="html_723e8f3637f4696614b4edd314ca8ac5" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 16</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.893917<br>             <b>Longitud:</b> -107.344973         </div>         </div>`)[0];
+                popup_cd0280864fc79ec3fd8ac7a94acf9acf.setContent(html_723e8f3637f4696614b4edd314ca8ac5);
+            
+        
+
+        circle_marker_8b7ebf2e46127ee6fa896590315f661b.bindPopup(popup_cd0280864fc79ec3fd8ac7a94acf9acf)
+        ;
+
+        
+    
+    
+            circle_marker_8b7ebf2e46127ee6fa896590315f661b.bindTooltip(
+                `<div>
+                     Tienda 16 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f3ada30644f2627db592aa42eb66d44f = L.circleMarker(
+                [24.8879, -107.321035],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_324af346ee6dacfbfe4201fd526e7afe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a010e531aae36ff7bb82e5915e7ad191 = $(`<div id="html_a010e531aae36ff7bb82e5915e7ad191" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 17</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.887900<br>             <b>Longitud:</b> -107.321035         </div>         </div>`)[0];
+                popup_324af346ee6dacfbfe4201fd526e7afe.setContent(html_a010e531aae36ff7bb82e5915e7ad191);
+            
+        
+
+        circle_marker_f3ada30644f2627db592aa42eb66d44f.bindPopup(popup_324af346ee6dacfbfe4201fd526e7afe)
+        ;
+
+        
+    
+    
+            circle_marker_f3ada30644f2627db592aa42eb66d44f.bindTooltip(
+                `<div>
+                     Tienda 17 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bbcd67ee89a7db28ff99efc728e39fd4 = L.circleMarker(
+                [24.81958, -107.315625],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_b85b11ca0c41d29215a4c6871452b882 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_736699af51f776ca63a344469853eacc = $(`<div id="html_736699af51f776ca63a344469853eacc" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 18</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.819580<br>             <b>Longitud:</b> -107.315625         </div>         </div>`)[0];
+                popup_b85b11ca0c41d29215a4c6871452b882.setContent(html_736699af51f776ca63a344469853eacc);
+            
+        
+
+        circle_marker_bbcd67ee89a7db28ff99efc728e39fd4.bindPopup(popup_b85b11ca0c41d29215a4c6871452b882)
+        ;
+
+        
+    
+    
+            circle_marker_bbcd67ee89a7db28ff99efc728e39fd4.bindTooltip(
+                `<div>
+                     Tienda 18 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9ad48381f7cfbdaba759085633f9c60d = L.circleMarker(
+                [24.717699, -107.460803],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_9cf76a530994f67eea0ad43f137e66aa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3cbb691a683b9c6488382f755271fd3a = $(`<div id="html_3cbb691a683b9c6488382f755271fd3a" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 19</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.717699<br>             <b>Longitud:</b> -107.460803         </div>         </div>`)[0];
+                popup_9cf76a530994f67eea0ad43f137e66aa.setContent(html_3cbb691a683b9c6488382f755271fd3a);
+            
+        
+
+        circle_marker_9ad48381f7cfbdaba759085633f9c60d.bindPopup(popup_9cf76a530994f67eea0ad43f137e66aa)
+        ;
+
+        
+    
+    
+            circle_marker_9ad48381f7cfbdaba759085633f9c60d.bindTooltip(
+                `<div>
+                     Tienda 19 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2130b6932c662ed69de8fab0d8985cbf = L.circleMarker(
+                [24.709045, -107.434934],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_12af515c8c97efd25a1ef40acc9d33f0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9035de840cdb83ca84de556123ffb9f1 = $(`<div id="html_9035de840cdb83ca84de556123ffb9f1" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 20</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.709045<br>             <b>Longitud:</b> -107.434934         </div>         </div>`)[0];
+                popup_12af515c8c97efd25a1ef40acc9d33f0.setContent(html_9035de840cdb83ca84de556123ffb9f1);
+            
+        
+
+        circle_marker_2130b6932c662ed69de8fab0d8985cbf.bindPopup(popup_12af515c8c97efd25a1ef40acc9d33f0)
+        ;
+
+        
+    
+    
+            circle_marker_2130b6932c662ed69de8fab0d8985cbf.bindTooltip(
+                `<div>
+                     Tienda 20 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6a43ba31c1c248362ef4674bcf0c293f = L.circleMarker(
+                [24.777735, -107.44573],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_6de662c969017f653a1a6d457556631a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b6f20c976aeb7eba8ffac1bf2e928c66 = $(`<div id="html_b6f20c976aeb7eba8ffac1bf2e928c66" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 21</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.777735<br>             <b>Longitud:</b> -107.445730         </div>         </div>`)[0];
+                popup_6de662c969017f653a1a6d457556631a.setContent(html_b6f20c976aeb7eba8ffac1bf2e928c66);
+            
+        
+
+        circle_marker_6a43ba31c1c248362ef4674bcf0c293f.bindPopup(popup_6de662c969017f653a1a6d457556631a)
+        ;
+
+        
+    
+    
+            circle_marker_6a43ba31c1c248362ef4674bcf0c293f.bindTooltip(
+                `<div>
+                     Tienda 21 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4849661d28dc1003551032bdd28241d8 = L.circleMarker(
+                [24.865748, -107.428649],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_3f5a845f823d188836ae1e2332bd6b35 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f9471ace3afdbecb5e31040807aa044 = $(`<div id="html_6f9471ace3afdbecb5e31040807aa044" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 22</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.865748<br>             <b>Longitud:</b> -107.428649         </div>         </div>`)[0];
+                popup_3f5a845f823d188836ae1e2332bd6b35.setContent(html_6f9471ace3afdbecb5e31040807aa044);
+            
+        
+
+        circle_marker_4849661d28dc1003551032bdd28241d8.bindPopup(popup_3f5a845f823d188836ae1e2332bd6b35)
+        ;
+
+        
+    
+    
+            circle_marker_4849661d28dc1003551032bdd28241d8.bindTooltip(
+                `<div>
+                     Tienda 22 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_39ffb6e618a4271c2886ce84dd8d77f4 = L.circleMarker(
+                [24.756187, -107.391461],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_81e4a9cf1c9858a1e27c67ce4efd5c3b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80bc805e9e1b2c2777037fa42fcb85c6 = $(`<div id="html_80bc805e9e1b2c2777037fa42fcb85c6" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 23</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.756187<br>             <b>Longitud:</b> -107.391461         </div>         </div>`)[0];
+                popup_81e4a9cf1c9858a1e27c67ce4efd5c3b.setContent(html_80bc805e9e1b2c2777037fa42fcb85c6);
+            
+        
+
+        circle_marker_39ffb6e618a4271c2886ce84dd8d77f4.bindPopup(popup_81e4a9cf1c9858a1e27c67ce4efd5c3b)
+        ;
+
+        
+    
+    
+            circle_marker_39ffb6e618a4271c2886ce84dd8d77f4.bindTooltip(
+                `<div>
+                     Tienda 23 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4dfa051839222aab7edfc8bb42913a4 = L.circleMarker(
+                [24.728185, -107.339561],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_7ac8224d9902c5809b82f4fa6e3f725b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4480ba95ab21c3563d1154c83783ced9 = $(`<div id="html_4480ba95ab21c3563d1154c83783ced9" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 24</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.728185<br>             <b>Longitud:</b> -107.339561         </div>         </div>`)[0];
+                popup_7ac8224d9902c5809b82f4fa6e3f725b.setContent(html_4480ba95ab21c3563d1154c83783ced9);
+            
+        
+
+        circle_marker_c4dfa051839222aab7edfc8bb42913a4.bindPopup(popup_7ac8224d9902c5809b82f4fa6e3f725b)
+        ;
+
+        
+    
+    
+            circle_marker_c4dfa051839222aab7edfc8bb42913a4.bindTooltip(
+                `<div>
+                     Tienda 24 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6cd06b5aa193a499655614b9423beb5b = L.circleMarker(
+                [24.71491, -107.302623],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_3cc5cc744697a9ef953e5a7d6ebadeee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7dc77a7b729519231efd701962454a7f = $(`<div id="html_7dc77a7b729519231efd701962454a7f" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 25</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.714910<br>             <b>Longitud:</b> -107.302623         </div>         </div>`)[0];
+                popup_3cc5cc744697a9ef953e5a7d6ebadeee.setContent(html_7dc77a7b729519231efd701962454a7f);
+            
+        
+
+        circle_marker_6cd06b5aa193a499655614b9423beb5b.bindPopup(popup_3cc5cc744697a9ef953e5a7d6ebadeee)
+        ;
+
+        
+    
+    
+            circle_marker_6cd06b5aa193a499655614b9423beb5b.bindTooltip(
+                `<div>
+                     Tienda 25 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0298f5224fec8c6a7a19d64bed81ce55 = L.circleMarker(
+                [24.854449, -107.460257],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_c2da16fa2b468e1acd1e58d578c5350a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_15803271fa572a0bf2233ea298cdd1c4 = $(`<div id="html_15803271fa572a0bf2233ea298cdd1c4" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 26</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.854449<br>             <b>Longitud:</b> -107.460257         </div>         </div>`)[0];
+                popup_c2da16fa2b468e1acd1e58d578c5350a.setContent(html_15803271fa572a0bf2233ea298cdd1c4);
+            
+        
+
+        circle_marker_0298f5224fec8c6a7a19d64bed81ce55.bindPopup(popup_c2da16fa2b468e1acd1e58d578c5350a)
+        ;
+
+        
+    
+    
+            circle_marker_0298f5224fec8c6a7a19d64bed81ce55.bindTooltip(
+                `<div>
+                     Tienda 26 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_76a2f2a87e062878af1827a666c48853 = L.circleMarker(
+                [24.701104, -107.336908],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_fc64bd7116fea5f175a9e754a45b937a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2135bc7ea4933b138fda14dafd54e7ee = $(`<div id="html_2135bc7ea4933b138fda14dafd54e7ee" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 27</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.701104<br>             <b>Longitud:</b> -107.336908         </div>         </div>`)[0];
+                popup_fc64bd7116fea5f175a9e754a45b937a.setContent(html_2135bc7ea4933b138fda14dafd54e7ee);
+            
+        
+
+        circle_marker_76a2f2a87e062878af1827a666c48853.bindPopup(popup_fc64bd7116fea5f175a9e754a45b937a)
+        ;
+
+        
+    
+    
+            circle_marker_76a2f2a87e062878af1827a666c48853.bindTooltip(
+                `<div>
+                     Tienda 27 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d637b4e10524e8cb8b651ace23c3d614 = L.circleMarker(
+                [24.841371, -107.354199],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_ee19efa4b9aa35adfdd71796fcc29eb3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a37a3ca1d315d721152bba003fc40910 = $(`<div id="html_a37a3ca1d315d721152bba003fc40910" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 28</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.841371<br>             <b>Longitud:</b> -107.354199         </div>         </div>`)[0];
+                popup_ee19efa4b9aa35adfdd71796fcc29eb3.setContent(html_a37a3ca1d315d721152bba003fc40910);
+            
+        
+
+        circle_marker_d637b4e10524e8cb8b651ace23c3d614.bindPopup(popup_ee19efa4b9aa35adfdd71796fcc29eb3)
+        ;
+
+        
+    
+    
+            circle_marker_d637b4e10524e8cb8b651ace23c3d614.bindTooltip(
+                `<div>
+                     Tienda 28 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c0e3e50649dbfe3b36e8a2bdb00a3e99 = L.circleMarker(
+                [24.854254, -107.485191],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_3df37d14e2383b2f4bac7a5da75010b1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b623f8dc978b6b92175a9d34b3be9ed = $(`<div id="html_9b623f8dc978b6b92175a9d34b3be9ed" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 29</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.854254<br>             <b>Longitud:</b> -107.485191         </div>         </div>`)[0];
+                popup_3df37d14e2383b2f4bac7a5da75010b1.setContent(html_9b623f8dc978b6b92175a9d34b3be9ed);
+            
+        
+
+        circle_marker_c0e3e50649dbfe3b36e8a2bdb00a3e99.bindPopup(popup_3df37d14e2383b2f4bac7a5da75010b1)
+        ;
+
+        
+    
+    
+            circle_marker_c0e3e50649dbfe3b36e8a2bdb00a3e99.bindTooltip(
+                `<div>
+                     Tienda 29 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0fb9e472bf3458352d6e90fda948a357 = L.circleMarker(
+                [24.771693, -107.476826],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_ae6be91ff8d6699196404492bb5d4c83 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fd04f75eda68c31a2877b00acfafab4e = $(`<div id="html_fd04f75eda68c31a2877b00acfafab4e" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 30</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.771693<br>             <b>Longitud:</b> -107.476826         </div>         </div>`)[0];
+                popup_ae6be91ff8d6699196404492bb5d4c83.setContent(html_fd04f75eda68c31a2877b00acfafab4e);
+            
+        
+
+        circle_marker_0fb9e472bf3458352d6e90fda948a357.bindPopup(popup_ae6be91ff8d6699196404492bb5d4c83)
+        ;
+
+        
+    
+    
+            circle_marker_0fb9e472bf3458352d6e90fda948a357.bindTooltip(
+                `<div>
+                     Tienda 30 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3f0fc2ff2af48ec86f84b79bcfa78752 = L.circleMarker(
+                [24.872621, -107.37534],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_d6ae3918d02d6ee560e174dc16ed6a63 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dd34516913418ea9bf330b20d9217c6a = $(`<div id="html_dd34516913418ea9bf330b20d9217c6a" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 31</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.872621<br>             <b>Longitud:</b> -107.375340         </div>         </div>`)[0];
+                popup_d6ae3918d02d6ee560e174dc16ed6a63.setContent(html_dd34516913418ea9bf330b20d9217c6a);
+            
+        
+
+        circle_marker_3f0fc2ff2af48ec86f84b79bcfa78752.bindPopup(popup_d6ae3918d02d6ee560e174dc16ed6a63)
+        ;
+
+        
+    
+    
+            circle_marker_3f0fc2ff2af48ec86f84b79bcfa78752.bindTooltip(
+                `<div>
+                     Tienda 31 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2791e016f973839abdb4b0082ffe3485 = L.circleMarker(
+                [24.76618, -107.487288],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_eb60f690c6b44eed3262f72c7631efdb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_945eca63979f4294dfe5dc7c3e93d6e1 = $(`<div id="html_945eca63979f4294dfe5dc7c3e93d6e1" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 32</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.766180<br>             <b>Longitud:</b> -107.487288         </div>         </div>`)[0];
+                popup_eb60f690c6b44eed3262f72c7631efdb.setContent(html_945eca63979f4294dfe5dc7c3e93d6e1);
+            
+        
+
+        circle_marker_2791e016f973839abdb4b0082ffe3485.bindPopup(popup_eb60f690c6b44eed3262f72c7631efdb)
+        ;
+
+        
+    
+    
+            circle_marker_2791e016f973839abdb4b0082ffe3485.bindTooltip(
+                `<div>
+                     Tienda 32 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_95410c30a6dd10eb87f19e09097ba179 = L.circleMarker(
+                [24.762196, -107.434963],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_94c1eb23ea0e720064518a93743e7118 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0e8a1dd4e66f42f015f4934f4658d5f9 = $(`<div id="html_0e8a1dd4e66f42f015f4934f4658d5f9" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 33</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.762196<br>             <b>Longitud:</b> -107.434963         </div>         </div>`)[0];
+                popup_94c1eb23ea0e720064518a93743e7118.setContent(html_0e8a1dd4e66f42f015f4934f4658d5f9);
+            
+        
+
+        circle_marker_95410c30a6dd10eb87f19e09097ba179.bindPopup(popup_94c1eb23ea0e720064518a93743e7118)
+        ;
+
+        
+    
+    
+            circle_marker_95410c30a6dd10eb87f19e09097ba179.bindTooltip(
+                `<div>
+                     Tienda 33 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0cbd22ac9b4716ca8726831260445ead = L.circleMarker(
+                [24.845921, -107.372489],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_b028800d73d41dad1e6754936d94e065 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d166d81e62d91466464789013947d20d = $(`<div id="html_d166d81e62d91466464789013947d20d" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 34</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.845921<br>             <b>Longitud:</b> -107.372489         </div>         </div>`)[0];
+                popup_b028800d73d41dad1e6754936d94e065.setContent(html_d166d81e62d91466464789013947d20d);
+            
+        
+
+        circle_marker_0cbd22ac9b4716ca8726831260445ead.bindPopup(popup_b028800d73d41dad1e6754936d94e065)
+        ;
+
+        
+    
+    
+            circle_marker_0cbd22ac9b4716ca8726831260445ead.bindTooltip(
+                `<div>
+                     Tienda 34 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_72d2f37d6d073b9f725aaa8e4c7d5013 = L.circleMarker(
+                [24.877443, -107.405557],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_774d474fbca1d5e1cc7850a65d7c0ee2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b3f6259de28f8537c71e35a7b71b9f24 = $(`<div id="html_b3f6259de28f8537c71e35a7b71b9f24" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 35</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.877443<br>             <b>Longitud:</b> -107.405557         </div>         </div>`)[0];
+                popup_774d474fbca1d5e1cc7850a65d7c0ee2.setContent(html_b3f6259de28f8537c71e35a7b71b9f24);
+            
+        
+
+        circle_marker_72d2f37d6d073b9f725aaa8e4c7d5013.bindPopup(popup_774d474fbca1d5e1cc7850a65d7c0ee2)
+        ;
+
+        
+    
+    
+            circle_marker_72d2f37d6d073b9f725aaa8e4c7d5013.bindTooltip(
+                `<div>
+                     Tienda 35 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_404b6a3d46fb388b52d60f18c805ecc5 = L.circleMarker(
+                [24.723919, -107.357351],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_bd58ee4371b3996a2818688bcf401293 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a108d42b437af78b1932d748bc200846 = $(`<div id="html_a108d42b437af78b1932d748bc200846" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 36</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.723919<br>             <b>Longitud:</b> -107.357351         </div>         </div>`)[0];
+                popup_bd58ee4371b3996a2818688bcf401293.setContent(html_a108d42b437af78b1932d748bc200846);
+            
+        
+
+        circle_marker_404b6a3d46fb388b52d60f18c805ecc5.bindPopup(popup_bd58ee4371b3996a2818688bcf401293)
+        ;
+
+        
+    
+    
+            circle_marker_404b6a3d46fb388b52d60f18c805ecc5.bindTooltip(
+                `<div>
+                     Tienda 36 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03bf80840491e15003d6b7e6e300da94 = L.circleMarker(
+                [24.852157, -107.387745],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_111ca63c2859a454f944480ff03d59bb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2210eb3693ff2001019096d9b87693ed = $(`<div id="html_2210eb3693ff2001019096d9b87693ed" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 37</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.852157<br>             <b>Longitud:</b> -107.387745         </div>         </div>`)[0];
+                popup_111ca63c2859a454f944480ff03d59bb.setContent(html_2210eb3693ff2001019096d9b87693ed);
+            
+        
+
+        circle_marker_03bf80840491e15003d6b7e6e300da94.bindPopup(popup_111ca63c2859a454f944480ff03d59bb)
+        ;
+
+        
+    
+    
+            circle_marker_03bf80840491e15003d6b7e6e300da94.bindTooltip(
+                `<div>
+                     Tienda 37 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_31b08818ee39adb9713e52629be567c8 = L.circleMarker(
+                [24.854193, -107.401241],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_59b0d3bbc96d36712ba5bab9bf783d1e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_049daa20823357495c664d879c469d43 = $(`<div id="html_049daa20823357495c664d879c469d43" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 38</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.854193<br>             <b>Longitud:</b> -107.401241         </div>         </div>`)[0];
+                popup_59b0d3bbc96d36712ba5bab9bf783d1e.setContent(html_049daa20823357495c664d879c469d43);
+            
+        
+
+        circle_marker_31b08818ee39adb9713e52629be567c8.bindPopup(popup_59b0d3bbc96d36712ba5bab9bf783d1e)
+        ;
+
+        
+    
+    
+            circle_marker_31b08818ee39adb9713e52629be567c8.bindTooltip(
+                `<div>
+                     Tienda 38 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7fd7a9e593eacb9714bcd08babf11b8d = L.circleMarker(
+                [24.804547, -107.414492],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_899035948785ecb66ebeaf9f676abddd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3d4dde721529ee1678f43a062cdd6f09 = $(`<div id="html_3d4dde721529ee1678f43a062cdd6f09" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 39</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.804547<br>             <b>Longitud:</b> -107.414492         </div>         </div>`)[0];
+                popup_899035948785ecb66ebeaf9f676abddd.setContent(html_3d4dde721529ee1678f43a062cdd6f09);
+            
+        
+
+        circle_marker_7fd7a9e593eacb9714bcd08babf11b8d.bindPopup(popup_899035948785ecb66ebeaf9f676abddd)
+        ;
+
+        
+    
+    
+            circle_marker_7fd7a9e593eacb9714bcd08babf11b8d.bindTooltip(
+                `<div>
+                     Tienda 39 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f8ffd137c87c486a66b7962886892af = L.circleMarker(
+                [24.705084, -107.478422],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_6bd83fa3ad9ece2ab038bb657ab394ef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9f9bbf13ca9b3fadd1335ec78dfeabcf = $(`<div id="html_9f9bbf13ca9b3fadd1335ec78dfeabcf" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 40</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.705084<br>             <b>Longitud:</b> -107.478422         </div>         </div>`)[0];
+                popup_6bd83fa3ad9ece2ab038bb657ab394ef.setContent(html_9f9bbf13ca9b3fadd1335ec78dfeabcf);
+            
+        
+
+        circle_marker_8f8ffd137c87c486a66b7962886892af.bindPopup(popup_6bd83fa3ad9ece2ab038bb657ab394ef)
+        ;
+
+        
+    
+    
+            circle_marker_8f8ffd137c87c486a66b7962886892af.bindTooltip(
+                `<div>
+                     Tienda 40 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e6bf83c346cb648fa3861373b2329c17 = L.circleMarker(
+                [24.706286, -107.372718],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_9df81dbd6dd40f8a940f2ffd42d356d8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fc4af91593c05eeb386f267ff85ee7c0 = $(`<div id="html_fc4af91593c05eeb386f267ff85ee7c0" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 41</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.706286<br>             <b>Longitud:</b> -107.372718         </div>         </div>`)[0];
+                popup_9df81dbd6dd40f8a940f2ffd42d356d8.setContent(html_fc4af91593c05eeb386f267ff85ee7c0);
+            
+        
+
+        circle_marker_e6bf83c346cb648fa3861373b2329c17.bindPopup(popup_9df81dbd6dd40f8a940f2ffd42d356d8)
+        ;
+
+        
+    
+    
+            circle_marker_e6bf83c346cb648fa3861373b2329c17.bindTooltip(
+                `<div>
+                     Tienda 41 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0891bcb0bde6e733d86b54a8fb748f9c = L.circleMarker(
+                [24.762871, -107.398286],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_5b465460a24a210bcf7fde2197ae9bc8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_36d072e29e6504f45983e850ee5c96d2 = $(`<div id="html_36d072e29e6504f45983e850ee5c96d2" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 42</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.762871<br>             <b>Longitud:</b> -107.398286         </div>         </div>`)[0];
+                popup_5b465460a24a210bcf7fde2197ae9bc8.setContent(html_36d072e29e6504f45983e850ee5c96d2);
+            
+        
+
+        circle_marker_0891bcb0bde6e733d86b54a8fb748f9c.bindPopup(popup_5b465460a24a210bcf7fde2197ae9bc8)
+        ;
+
+        
+    
+    
+            circle_marker_0891bcb0bde6e733d86b54a8fb748f9c.bindTooltip(
+                `<div>
+                     Tienda 42 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3978899b39a14cde4167cd05eb32d1c5 = L.circleMarker(
+                [24.881513, -107.450142],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_aca1d9887f1b9f088cd9255b1b8768d4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a4a320e51a17b4179e60879c9dff7b27 = $(`<div id="html_a4a320e51a17b4179e60879c9dff7b27" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 43</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.881513<br>             <b>Longitud:</b> -107.450142         </div>         </div>`)[0];
+                popup_aca1d9887f1b9f088cd9255b1b8768d4.setContent(html_a4a320e51a17b4179e60879c9dff7b27);
+            
+        
+
+        circle_marker_3978899b39a14cde4167cd05eb32d1c5.bindPopup(popup_aca1d9887f1b9f088cd9255b1b8768d4)
+        ;
+
+        
+    
+    
+            circle_marker_3978899b39a14cde4167cd05eb32d1c5.bindTooltip(
+                `<div>
+                     Tienda 43 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_030e8ecab42ede7ca50a440064737a8f = L.circleMarker(
+                [24.782077, -107.34889],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_5d5b5aaaa66b3c5fd59945e61e8f9098 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e59a3d7f663df0774944206973dbea6e = $(`<div id="html_e59a3d7f663df0774944206973dbea6e" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 44</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.782077<br>             <b>Longitud:</b> -107.348890         </div>         </div>`)[0];
+                popup_5d5b5aaaa66b3c5fd59945e61e8f9098.setContent(html_e59a3d7f663df0774944206973dbea6e);
+            
+        
+
+        circle_marker_030e8ecab42ede7ca50a440064737a8f.bindPopup(popup_5d5b5aaaa66b3c5fd59945e61e8f9098)
+        ;
+
+        
+    
+    
+            circle_marker_030e8ecab42ede7ca50a440064737a8f.bindTooltip(
+                `<div>
+                     Tienda 44 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ab119363df58b348f6d8cf8103465cfd = L.circleMarker(
+                [24.74576, -107.484604],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_a2f76ab05038c0473fe61d9147cf7062 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b96ea0b2bfa0c34dba78c5feb378355 = $(`<div id="html_3b96ea0b2bfa0c34dba78c5feb378355" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 45</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.745760<br>             <b>Longitud:</b> -107.484604         </div>         </div>`)[0];
+                popup_a2f76ab05038c0473fe61d9147cf7062.setContent(html_3b96ea0b2bfa0c34dba78c5feb378355);
+            
+        
+
+        circle_marker_ab119363df58b348f6d8cf8103465cfd.bindPopup(popup_a2f76ab05038c0473fe61d9147cf7062)
+        ;
+
+        
+    
+    
+            circle_marker_ab119363df58b348f6d8cf8103465cfd.bindTooltip(
+                `<div>
+                     Tienda 45 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08e741f950c486269028c467f4078ab5 = L.circleMarker(
+                [24.75795, -107.467756],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_110ea8ee9892096ca546f525d75d1db7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7337dd28aea253bd1b3f0c57ab3a4358 = $(`<div id="html_7337dd28aea253bd1b3f0c57ab3a4358" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 46</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.757950<br>             <b>Longitud:</b> -107.467756         </div>         </div>`)[0];
+                popup_110ea8ee9892096ca546f525d75d1db7.setContent(html_7337dd28aea253bd1b3f0c57ab3a4358);
+            
+        
+
+        circle_marker_08e741f950c486269028c467f4078ab5.bindPopup(popup_110ea8ee9892096ca546f525d75d1db7)
+        ;
+
+        
+    
+    
+            circle_marker_08e741f950c486269028c467f4078ab5.bindTooltip(
+                `<div>
+                     Tienda 46 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0ce7cf0f5d1c362964485f8b6d2d34ce = L.circleMarker(
+                [24.88594, -107.338376],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_c8aec40e934797f1f311a396ef4dee9f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cd198ff7f9b21534e1d8a2f6852fb686 = $(`<div id="html_cd198ff7f9b21534e1d8a2f6852fb686" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 47</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.885940<br>             <b>Longitud:</b> -107.338376         </div>         </div>`)[0];
+                popup_c8aec40e934797f1f311a396ef4dee9f.setContent(html_cd198ff7f9b21534e1d8a2f6852fb686);
+            
+        
+
+        circle_marker_0ce7cf0f5d1c362964485f8b6d2d34ce.bindPopup(popup_c8aec40e934797f1f311a396ef4dee9f)
+        ;
+
+        
+    
+    
+            circle_marker_0ce7cf0f5d1c362964485f8b6d2d34ce.bindTooltip(
+                `<div>
+                     Tienda 47 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b1612b5b544eb0bf71a4fd090d16d93a = L.circleMarker(
+                [24.826681, -107.325708],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_1afd4d6ec97aa889ab7c7413c5be7a3b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3edfd63267d85f783c8d21b80f581d63 = $(`<div id="html_3edfd63267d85f783c8d21b80f581d63" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 48</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.826681<br>             <b>Longitud:</b> -107.325708         </div>         </div>`)[0];
+                popup_1afd4d6ec97aa889ab7c7413c5be7a3b.setContent(html_3edfd63267d85f783c8d21b80f581d63);
+            
+        
+
+        circle_marker_b1612b5b544eb0bf71a4fd090d16d93a.bindPopup(popup_1afd4d6ec97aa889ab7c7413c5be7a3b)
+        ;
+
+        
+    
+    
+            circle_marker_b1612b5b544eb0bf71a4fd090d16d93a.bindTooltip(
+                `<div>
+                     Tienda 48 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_be5d97eb1e7f753c2d649df5fa2ec4f4 = L.circleMarker(
+                [24.860734, -107.462686],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_444b88dfdb1196a7dd731c09fb315d86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e8d1139eeba115326d52ec1e3da5691 = $(`<div id="html_6e8d1139eeba115326d52ec1e3da5691" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 49</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.860734<br>             <b>Longitud:</b> -107.462686         </div>         </div>`)[0];
+                popup_444b88dfdb1196a7dd731c09fb315d86.setContent(html_6e8d1139eeba115326d52ec1e3da5691);
+            
+        
+
+        circle_marker_be5d97eb1e7f753c2d649df5fa2ec4f4.bindPopup(popup_444b88dfdb1196a7dd731c09fb315d86)
+        ;
+
+        
+    
+    
+            circle_marker_be5d97eb1e7f753c2d649df5fa2ec4f4.bindTooltip(
+                `<div>
+                     Tienda 49 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3ffd53a668fad0179fa17539e906bd3b = L.circleMarker(
+                [24.878512, -107.392132],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_ac32b13bcce953a176451a56fe3b7251 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_315b456cdae49f426e817afb46d42df0 = $(`<div id="html_315b456cdae49f426e817afb46d42df0" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 50</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.878512<br>             <b>Longitud:</b> -107.392132         </div>         </div>`)[0];
+                popup_ac32b13bcce953a176451a56fe3b7251.setContent(html_315b456cdae49f426e817afb46d42df0);
+            
+        
+
+        circle_marker_3ffd53a668fad0179fa17539e906bd3b.bindPopup(popup_ac32b13bcce953a176451a56fe3b7251)
+        ;
+
+        
+    
+    
+            circle_marker_3ffd53a668fad0179fa17539e906bd3b.bindTooltip(
+                `<div>
+                     Tienda 50 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df4953698ad5ae5121186ff68c1c7e58 = L.circleMarker(
+                [24.861488, -107.320782],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_263d615aaa34ac2a03877aad926d58bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d26038056fabda53e521f4f4b99d4651 = $(`<div id="html_d26038056fabda53e521f4f4b99d4651" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 51</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.861488<br>             <b>Longitud:</b> -107.320782         </div>         </div>`)[0];
+                popup_263d615aaa34ac2a03877aad926d58bf.setContent(html_d26038056fabda53e521f4f4b99d4651);
+            
+        
+
+        circle_marker_df4953698ad5ae5121186ff68c1c7e58.bindPopup(popup_263d615aaa34ac2a03877aad926d58bf)
+        ;
+
+        
+    
+    
+            circle_marker_df4953698ad5ae5121186ff68c1c7e58.bindTooltip(
+                `<div>
+                     Tienda 51 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c28984bdf70ece7c175ac9ed88efa54 = L.circleMarker(
+                [24.763601, -107.47799],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_ebca171756547b4258a9e0cf3016f5b5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bac9e040f5fb5e131c643c995a00eb8c = $(`<div id="html_bac9e040f5fb5e131c643c995a00eb8c" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 52</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.763601<br>             <b>Longitud:</b> -107.477990         </div>         </div>`)[0];
+                popup_ebca171756547b4258a9e0cf3016f5b5.setContent(html_bac9e040f5fb5e131c643c995a00eb8c);
+            
+        
+
+        circle_marker_5c28984bdf70ece7c175ac9ed88efa54.bindPopup(popup_ebca171756547b4258a9e0cf3016f5b5)
+        ;
+
+        
+    
+    
+            circle_marker_5c28984bdf70ece7c175ac9ed88efa54.bindTooltip(
+                `<div>
+                     Tienda 52 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f47450134fc460ec8f7db821904d9b10 = L.circleMarker(
+                [24.745587, -107.414578],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_0099d8bd90e0b5fe442d1a728498657f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e99fee51da3fda26dab314ad7e4b6b3c = $(`<div id="html_e99fee51da3fda26dab314ad7e4b6b3c" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 53</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.745587<br>             <b>Longitud:</b> -107.414578         </div>         </div>`)[0];
+                popup_0099d8bd90e0b5fe442d1a728498657f.setContent(html_e99fee51da3fda26dab314ad7e4b6b3c);
+            
+        
+
+        circle_marker_f47450134fc460ec8f7db821904d9b10.bindPopup(popup_0099d8bd90e0b5fe442d1a728498657f)
+        ;
+
+        
+    
+    
+            circle_marker_f47450134fc460ec8f7db821904d9b10.bindTooltip(
+                `<div>
+                     Tienda 53 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ada3d959f373ea7c8c0637c5350a5800 = L.circleMarker(
+                [24.863603, -107.327854],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_01f00a48d4cbc29e06d44a6231417600 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a4b05ca72dc8867527efeac180d32412 = $(`<div id="html_a4b05ca72dc8867527efeac180d32412" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 54</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.863603<br>             <b>Longitud:</b> -107.327854         </div>         </div>`)[0];
+                popup_01f00a48d4cbc29e06d44a6231417600.setContent(html_a4b05ca72dc8867527efeac180d32412);
+            
+        
+
+        circle_marker_ada3d959f373ea7c8c0637c5350a5800.bindPopup(popup_01f00a48d4cbc29e06d44a6231417600)
+        ;
+
+        
+    
+    
+            circle_marker_ada3d959f373ea7c8c0637c5350a5800.bindTooltip(
+                `<div>
+                     Tienda 54 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4976ed22839591355853840b64f0426b = L.circleMarker(
+                [24.70139, -107.397851],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_d12fd675e7683dff6c7a40e35b4975ce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c30921a6e985fd194b12225b3aae29a = $(`<div id="html_4c30921a6e985fd194b12225b3aae29a" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 55</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.701390<br>             <b>Longitud:</b> -107.397851         </div>         </div>`)[0];
+                popup_d12fd675e7683dff6c7a40e35b4975ce.setContent(html_4c30921a6e985fd194b12225b3aae29a);
+            
+        
+
+        circle_marker_4976ed22839591355853840b64f0426b.bindPopup(popup_d12fd675e7683dff6c7a40e35b4975ce)
+        ;
+
+        
+    
+    
+            circle_marker_4976ed22839591355853840b64f0426b.bindTooltip(
+                `<div>
+                     Tienda 55 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_856d39bf81743fc26375cb56a6099d7e = L.circleMarker(
+                [24.783482, -107.455578],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_633975b2e6e31f108a19cde399202231 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dad670b6f732c5909c3360f97b645a88 = $(`<div id="html_dad670b6f732c5909c3360f97b645a88" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 56</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.783482<br>             <b>Longitud:</b> -107.455578         </div>         </div>`)[0];
+                popup_633975b2e6e31f108a19cde399202231.setContent(html_dad670b6f732c5909c3360f97b645a88);
+            
+        
+
+        circle_marker_856d39bf81743fc26375cb56a6099d7e.bindPopup(popup_633975b2e6e31f108a19cde399202231)
+        ;
+
+        
+    
+    
+            circle_marker_856d39bf81743fc26375cb56a6099d7e.bindTooltip(
+                `<div>
+                     Tienda 56 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b365bc789455087734d4d8a5a58f862b = L.circleMarker(
+                [24.723973, -107.432477],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_0d98c8e7c7f5fc502d671a52d09cca6d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e7043104c1d7b31c6e8d04c539587632 = $(`<div id="html_e7043104c1d7b31c6e8d04c539587632" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 57</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.723973<br>             <b>Longitud:</b> -107.432477         </div>         </div>`)[0];
+                popup_0d98c8e7c7f5fc502d671a52d09cca6d.setContent(html_e7043104c1d7b31c6e8d04c539587632);
+            
+        
+
+        circle_marker_b365bc789455087734d4d8a5a58f862b.bindPopup(popup_0d98c8e7c7f5fc502d671a52d09cca6d)
+        ;
+
+        
+    
+    
+            circle_marker_b365bc789455087734d4d8a5a58f862b.bindTooltip(
+                `<div>
+                     Tienda 57 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bf6fb377318be7538daccd3972000aa = L.circleMarker(
+                [24.888582, -107.435359],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_14c54599261101a1ab627a545ce1882f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ef740d3f34ca179590b213cdf3c4667c = $(`<div id="html_ef740d3f34ca179590b213cdf3c4667c" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 58</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.888582<br>             <b>Longitud:</b> -107.435359         </div>         </div>`)[0];
+                popup_14c54599261101a1ab627a545ce1882f.setContent(html_ef740d3f34ca179590b213cdf3c4667c);
+            
+        
+
+        circle_marker_7bf6fb377318be7538daccd3972000aa.bindPopup(popup_14c54599261101a1ab627a545ce1882f)
+        ;
+
+        
+    
+    
+            circle_marker_7bf6fb377318be7538daccd3972000aa.bindTooltip(
+                `<div>
+                     Tienda 58 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_027168d9033fce54ce37daa327189b51 = L.circleMarker(
+                [24.803758, -107.359396],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_e2dfa47fc40789d62c90dbe65f84ca48 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dfd3e86cb4c34a0ab74c5104c6557f0d = $(`<div id="html_dfd3e86cb4c34a0ab74c5104c6557f0d" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 59</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.803758<br>             <b>Longitud:</b> -107.359396         </div>         </div>`)[0];
+                popup_e2dfa47fc40789d62c90dbe65f84ca48.setContent(html_dfd3e86cb4c34a0ab74c5104c6557f0d);
+            
+        
+
+        circle_marker_027168d9033fce54ce37daa327189b51.bindPopup(popup_e2dfa47fc40789d62c90dbe65f84ca48)
+        ;
+
+        
+    
+    
+            circle_marker_027168d9033fce54ce37daa327189b51.bindTooltip(
+                `<div>
+                     Tienda 59 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_092c0a83b064b6d7608dc3db02a8e9e3 = L.circleMarker(
+                [24.772726, -107.305644],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_2c5fb95738c2d2cb08b49ee39963ff31 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43dd0d8bbe1f50a9fa5a86042211d50f = $(`<div id="html_43dd0d8bbe1f50a9fa5a86042211d50f" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 60</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.772726<br>             <b>Longitud:</b> -107.305644         </div>         </div>`)[0];
+                popup_2c5fb95738c2d2cb08b49ee39963ff31.setContent(html_43dd0d8bbe1f50a9fa5a86042211d50f);
+            
+        
+
+        circle_marker_092c0a83b064b6d7608dc3db02a8e9e3.bindPopup(popup_2c5fb95738c2d2cb08b49ee39963ff31)
+        ;
+
+        
+    
+    
+            circle_marker_092c0a83b064b6d7608dc3db02a8e9e3.bindTooltip(
+                `<div>
+                     Tienda 60 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7deb21c926358e777092ccd31d4be9cb = L.circleMarker(
+                [24.892489, -107.449644],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_c3b51e1e3334a0242b77b4b79f0ed690 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b650175421916c5513ff4fb0ff1f114d = $(`<div id="html_b650175421916c5513ff4fb0ff1f114d" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 61</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.892489<br>             <b>Longitud:</b> -107.449644         </div>         </div>`)[0];
+                popup_c3b51e1e3334a0242b77b4b79f0ed690.setContent(html_b650175421916c5513ff4fb0ff1f114d);
+            
+        
+
+        circle_marker_7deb21c926358e777092ccd31d4be9cb.bindPopup(popup_c3b51e1e3334a0242b77b4b79f0ed690)
+        ;
+
+        
+    
+    
+            circle_marker_7deb21c926358e777092ccd31d4be9cb.bindTooltip(
+                `<div>
+                     Tienda 61 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e19de16469286125abb3e978030b7f78 = L.circleMarker(
+                [24.79945, -107.439824],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_1a28e20e444ba75ce98ae42eb75875be = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e75c178e30c055dae3be97c9ace805f = $(`<div id="html_7e75c178e30c055dae3be97c9ace805f" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 62</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.799450<br>             <b>Longitud:</b> -107.439824         </div>         </div>`)[0];
+                popup_1a28e20e444ba75ce98ae42eb75875be.setContent(html_7e75c178e30c055dae3be97c9ace805f);
+            
+        
+
+        circle_marker_e19de16469286125abb3e978030b7f78.bindPopup(popup_1a28e20e444ba75ce98ae42eb75875be)
+        ;
+
+        
+    
+    
+            circle_marker_e19de16469286125abb3e978030b7f78.bindTooltip(
+                `<div>
+                     Tienda 62 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08b070c24e38f079e95d09a075bedeea = L.circleMarker(
+                [24.756968, -107.492623],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_c18075466c7ec3adf2c2018f5ac3cf65 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4a6bc832856366507ff062340e87164f = $(`<div id="html_4a6bc832856366507ff062340e87164f" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 63</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.756968<br>             <b>Longitud:</b> -107.492623         </div>         </div>`)[0];
+                popup_c18075466c7ec3adf2c2018f5ac3cf65.setContent(html_4a6bc832856366507ff062340e87164f);
+            
+        
+
+        circle_marker_08b070c24e38f079e95d09a075bedeea.bindPopup(popup_c18075466c7ec3adf2c2018f5ac3cf65)
+        ;
+
+        
+    
+    
+            circle_marker_08b070c24e38f079e95d09a075bedeea.bindTooltip(
+                `<div>
+                     Tienda 63 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5bcc768423622fffa99aa6a13c40f5dd = L.circleMarker(
+                [24.821913, -107.399464],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_fc40ba8098ca8ddee55e1526eb6312bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_72840a3f21aaca6b65f5fbac06c3f4de = $(`<div id="html_72840a3f21aaca6b65f5fbac06c3f4de" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 64</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.821913<br>             <b>Longitud:</b> -107.399464         </div>         </div>`)[0];
+                popup_fc40ba8098ca8ddee55e1526eb6312bf.setContent(html_72840a3f21aaca6b65f5fbac06c3f4de);
+            
+        
+
+        circle_marker_5bcc768423622fffa99aa6a13c40f5dd.bindPopup(popup_fc40ba8098ca8ddee55e1526eb6312bf)
+        ;
+
+        
+    
+    
+            circle_marker_5bcc768423622fffa99aa6a13c40f5dd.bindTooltip(
+                `<div>
+                     Tienda 64 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9630352c3a9acbca2f60c7c17d231b6e = L.circleMarker(
+                [24.710296, -107.444271],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_55c23501acc2a975adab9e3fa40f9eb5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f0e53bf851463a8e5683289d626ef6d4 = $(`<div id="html_f0e53bf851463a8e5683289d626ef6d4" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 65</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.710296<br>             <b>Longitud:</b> -107.444271         </div>         </div>`)[0];
+                popup_55c23501acc2a975adab9e3fa40f9eb5.setContent(html_f0e53bf851463a8e5683289d626ef6d4);
+            
+        
+
+        circle_marker_9630352c3a9acbca2f60c7c17d231b6e.bindPopup(popup_55c23501acc2a975adab9e3fa40f9eb5)
+        ;
+
+        
+    
+    
+            circle_marker_9630352c3a9acbca2f60c7c17d231b6e.bindTooltip(
+                `<div>
+                     Tienda 65 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0b68f3fac07a602e3d3154b735937821 = L.circleMarker(
+                [24.881653, -107.452088],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_8f73601638e8394624a00bcddea420ec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a7e95af7e98726bd2cc173d183262782 = $(`<div id="html_a7e95af7e98726bd2cc173d183262782" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 66</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.881653<br>             <b>Longitud:</b> -107.452088         </div>         </div>`)[0];
+                popup_8f73601638e8394624a00bcddea420ec.setContent(html_a7e95af7e98726bd2cc173d183262782);
+            
+        
+
+        circle_marker_0b68f3fac07a602e3d3154b735937821.bindPopup(popup_8f73601638e8394624a00bcddea420ec)
+        ;
+
+        
+    
+    
+            circle_marker_0b68f3fac07a602e3d3154b735937821.bindTooltip(
+                `<div>
+                     Tienda 66 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_64dcf378121a5527941ada72a3220d88 = L.circleMarker(
+                [24.728979, -107.402109],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_109d529f06fa5163268b40c387734f6f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_39bf0bd979f263194859910fc978ead3 = $(`<div id="html_39bf0bd979f263194859910fc978ead3" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 67</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.728979<br>             <b>Longitud:</b> -107.402109         </div>         </div>`)[0];
+                popup_109d529f06fa5163268b40c387734f6f.setContent(html_39bf0bd979f263194859910fc978ead3);
+            
+        
+
+        circle_marker_64dcf378121a5527941ada72a3220d88.bindPopup(popup_109d529f06fa5163268b40c387734f6f)
+        ;
+
+        
+    
+    
+            circle_marker_64dcf378121a5527941ada72a3220d88.bindTooltip(
+                `<div>
+                     Tienda 67 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f6e2d98d52382283e964d284186bc05d = L.circleMarker(
+                [24.89713, -107.451589],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_650e7b88e8e0dee90d8a6b080bc0332e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e9ad8b1b9cd23ad6029cb0582669f25f = $(`<div id="html_e9ad8b1b9cd23ad6029cb0582669f25f" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 68</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.897130<br>             <b>Longitud:</b> -107.451589         </div>         </div>`)[0];
+                popup_650e7b88e8e0dee90d8a6b080bc0332e.setContent(html_e9ad8b1b9cd23ad6029cb0582669f25f);
+            
+        
+
+        circle_marker_f6e2d98d52382283e964d284186bc05d.bindPopup(popup_650e7b88e8e0dee90d8a6b080bc0332e)
+        ;
+
+        
+    
+    
+            circle_marker_f6e2d98d52382283e964d284186bc05d.bindTooltip(
+                `<div>
+                     Tienda 68 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5e3d506dfa5f6fd4679170559e429808 = L.circleMarker(
+                [24.834427, -107.347676],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_c3bf1058f7c89bc6ddaf5e7db41ca1c1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3be399199961a31a048d42c2759f168d = $(`<div id="html_3be399199961a31a048d42c2759f168d" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 69</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.834427<br>             <b>Longitud:</b> -107.347676         </div>         </div>`)[0];
+                popup_c3bf1058f7c89bc6ddaf5e7db41ca1c1.setContent(html_3be399199961a31a048d42c2759f168d);
+            
+        
+
+        circle_marker_5e3d506dfa5f6fd4679170559e429808.bindPopup(popup_c3bf1058f7c89bc6ddaf5e7db41ca1c1)
+        ;
+
+        
+    
+    
+            circle_marker_5e3d506dfa5f6fd4679170559e429808.bindTooltip(
+                `<div>
+                     Tienda 69 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d1519116b6d0ea5f91fdbd2de4198b7e = L.circleMarker(
+                [24.747528, -107.354357],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_0f1445aee0c52f69165e6e4279a0795b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3c28a293ea476e76558d407b3943df24 = $(`<div id="html_3c28a293ea476e76558d407b3943df24" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 70</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.747528<br>             <b>Longitud:</b> -107.354357         </div>         </div>`)[0];
+                popup_0f1445aee0c52f69165e6e4279a0795b.setContent(html_3c28a293ea476e76558d407b3943df24);
+            
+        
+
+        circle_marker_d1519116b6d0ea5f91fdbd2de4198b7e.bindPopup(popup_0f1445aee0c52f69165e6e4279a0795b)
+        ;
+
+        
+    
+    
+            circle_marker_d1519116b6d0ea5f91fdbd2de4198b7e.bindTooltip(
+                `<div>
+                     Tienda 70 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_959da82fc90eed8cf26d596bca075583 = L.circleMarker(
+                [24.773557, -107.373539],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_1bf25f6ad1fb11f186a7e0e2dd6e1f42 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_45f8481c4674c316fc8dc209908c8a8b = $(`<div id="html_45f8481c4674c316fc8dc209908c8a8b" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 71</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.773557<br>             <b>Longitud:</b> -107.373539         </div>         </div>`)[0];
+                popup_1bf25f6ad1fb11f186a7e0e2dd6e1f42.setContent(html_45f8481c4674c316fc8dc209908c8a8b);
+            
+        
+
+        circle_marker_959da82fc90eed8cf26d596bca075583.bindPopup(popup_1bf25f6ad1fb11f186a7e0e2dd6e1f42)
+        ;
+
+        
+    
+    
+            circle_marker_959da82fc90eed8cf26d596bca075583.bindTooltip(
+                `<div>
+                     Tienda 71 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6416b54f3f1c24a96c0921979dd4347b = L.circleMarker(
+                [24.826706, -107.392845],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_ed3c3826b596f26fb2fa59336e7ee1f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_03560c3399e81990a848a361ccd531e1 = $(`<div id="html_03560c3399e81990a848a361ccd531e1" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 72</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.826706<br>             <b>Longitud:</b> -107.392845         </div>         </div>`)[0];
+                popup_ed3c3826b596f26fb2fa59336e7ee1f8.setContent(html_03560c3399e81990a848a361ccd531e1);
+            
+        
+
+        circle_marker_6416b54f3f1c24a96c0921979dd4347b.bindPopup(popup_ed3c3826b596f26fb2fa59336e7ee1f8)
+        ;
+
+        
+    
+    
+            circle_marker_6416b54f3f1c24a96c0921979dd4347b.bindTooltip(
+                `<div>
+                     Tienda 72 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4369d2adcba293b6543a19d3f42cfbdf = L.circleMarker(
+                [24.718058, -107.33294],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_efea07fb38e4d206b05b32e5ba3740ef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6311dd7c3b753fba6e4fd492fef17e88 = $(`<div id="html_6311dd7c3b753fba6e4fd492fef17e88" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 73</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.718058<br>             <b>Longitud:</b> -107.332940         </div>         </div>`)[0];
+                popup_efea07fb38e4d206b05b32e5ba3740ef.setContent(html_6311dd7c3b753fba6e4fd492fef17e88);
+            
+        
+
+        circle_marker_4369d2adcba293b6543a19d3f42cfbdf.bindPopup(popup_efea07fb38e4d206b05b32e5ba3740ef)
+        ;
+
+        
+    
+    
+            circle_marker_4369d2adcba293b6543a19d3f42cfbdf.bindTooltip(
+                `<div>
+                     Tienda 73 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8a3c37da640e64d1de2fdaf034ca6827 = L.circleMarker(
+                [24.764156, -107.462696],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_7e98371969e10cfadc95b23762c57a97 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_838ed0f66be978965aef546741dae7c4 = $(`<div id="html_838ed0f66be978965aef546741dae7c4" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 74</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.764156<br>             <b>Longitud:</b> -107.462696         </div>         </div>`)[0];
+                popup_7e98371969e10cfadc95b23762c57a97.setContent(html_838ed0f66be978965aef546741dae7c4);
+            
+        
+
+        circle_marker_8a3c37da640e64d1de2fdaf034ca6827.bindPopup(popup_7e98371969e10cfadc95b23762c57a97)
+        ;
+
+        
+    
+    
+            circle_marker_8a3c37da640e64d1de2fdaf034ca6827.bindTooltip(
+                `<div>
+                     Tienda 74 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d6dac97f2531072408916d780639032 = L.circleMarker(
+                [24.708155, -107.381821],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_b07398d234d80b091e24131c1f96727d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_15f4bd95b70114eb2d09929d25c0b047 = $(`<div id="html_15f4bd95b70114eb2d09929d25c0b047" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 75</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.708155<br>             <b>Longitud:</b> -107.381821         </div>         </div>`)[0];
+                popup_b07398d234d80b091e24131c1f96727d.setContent(html_15f4bd95b70114eb2d09929d25c0b047);
+            
+        
+
+        circle_marker_6d6dac97f2531072408916d780639032.bindPopup(popup_b07398d234d80b091e24131c1f96727d)
+        ;
+
+        
+    
+    
+            circle_marker_6d6dac97f2531072408916d780639032.bindTooltip(
+                `<div>
+                     Tienda 75 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_683091d834ddb235c63613a5545a2a12 = L.circleMarker(
+                [24.835513, -107.496682],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_04a95944a1368742f4122ac7bd3c56d8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8272daf440cf2a389cb9c69a9c45ea7d = $(`<div id="html_8272daf440cf2a389cb9c69a9c45ea7d" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 76</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.835513<br>             <b>Longitud:</b> -107.496682         </div>         </div>`)[0];
+                popup_04a95944a1368742f4122ac7bd3c56d8.setContent(html_8272daf440cf2a389cb9c69a9c45ea7d);
+            
+        
+
+        circle_marker_683091d834ddb235c63613a5545a2a12.bindPopup(popup_04a95944a1368742f4122ac7bd3c56d8)
+        ;
+
+        
+    
+    
+            circle_marker_683091d834ddb235c63613a5545a2a12.bindTooltip(
+                `<div>
+                     Tienda 76 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_31917a1fec526aa3f4ebf0dfbf4739af = L.circleMarker(
+                [24.802419, -107.454701],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_6cb51b85d14eb0e8d548b541dd05cdb9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6118ccc69f46693cb183b240f6742339 = $(`<div id="html_6118ccc69f46693cb183b240f6742339" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 77</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.802419<br>             <b>Longitud:</b> -107.454701         </div>         </div>`)[0];
+                popup_6cb51b85d14eb0e8d548b541dd05cdb9.setContent(html_6118ccc69f46693cb183b240f6742339);
+            
+        
+
+        circle_marker_31917a1fec526aa3f4ebf0dfbf4739af.bindPopup(popup_6cb51b85d14eb0e8d548b541dd05cdb9)
+        ;
+
+        
+    
+    
+            circle_marker_31917a1fec526aa3f4ebf0dfbf4739af.bindTooltip(
+                `<div>
+                     Tienda 77 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd96253de719f490ed478e96dc960367 = L.circleMarker(
+                [24.829035, -107.465127],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_7e02e16b8708b3449c90483bbef8c603 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cbdee8bdbd6927c23e8883b5186f4703 = $(`<div id="html_cbdee8bdbd6927c23e8883b5186f4703" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 78</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.829035<br>             <b>Longitud:</b> -107.465127         </div>         </div>`)[0];
+                popup_7e02e16b8708b3449c90483bbef8c603.setContent(html_cbdee8bdbd6927c23e8883b5186f4703);
+            
+        
+
+        circle_marker_bd96253de719f490ed478e96dc960367.bindPopup(popup_7e02e16b8708b3449c90483bbef8c603)
+        ;
+
+        
+    
+    
+            circle_marker_bd96253de719f490ed478e96dc960367.bindTooltip(
+                `<div>
+                     Tienda 78 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_286a78cde9ed27fff6b93e5f195e5d44 = L.circleMarker(
+                [24.838188, -107.422653],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_4c8487a65bd7c03e96c2051f7d946b55 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a67a8d560f45e0a4341485cea6479a3c = $(`<div id="html_a67a8d560f45e0a4341485cea6479a3c" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 79</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.838188<br>             <b>Longitud:</b> -107.422653         </div>         </div>`)[0];
+                popup_4c8487a65bd7c03e96c2051f7d946b55.setContent(html_a67a8d560f45e0a4341485cea6479a3c);
+            
+        
+
+        circle_marker_286a78cde9ed27fff6b93e5f195e5d44.bindPopup(popup_4c8487a65bd7c03e96c2051f7d946b55)
+        ;
+
+        
+    
+    
+            circle_marker_286a78cde9ed27fff6b93e5f195e5d44.bindTooltip(
+                `<div>
+                     Tienda 79 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_384e3f862ec73b44e0ab24ab5747b0d9 = L.circleMarker(
+                [24.887346, -107.472496],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_761b36c30dce57d57b3e267375f31e9d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6fada08ea4d9d4d7582cbbf0a05ca658 = $(`<div id="html_6fada08ea4d9d4d7582cbbf0a05ca658" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 80</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.887346<br>             <b>Longitud:</b> -107.472496         </div>         </div>`)[0];
+                popup_761b36c30dce57d57b3e267375f31e9d.setContent(html_6fada08ea4d9d4d7582cbbf0a05ca658);
+            
+        
+
+        circle_marker_384e3f862ec73b44e0ab24ab5747b0d9.bindPopup(popup_761b36c30dce57d57b3e267375f31e9d)
+        ;
+
+        
+    
+    
+            circle_marker_384e3f862ec73b44e0ab24ab5747b0d9.bindTooltip(
+                `<div>
+                     Tienda 80 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b6fd20304dc94910bead721799593f46 = L.circleMarker(
+                [24.768213, -107.477305],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_c794f9be89d2b189947aad8996841dee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_41a1e551488101982311a6c44ce1f7db = $(`<div id="html_41a1e551488101982311a6c44ce1f7db" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 81</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.768213<br>             <b>Longitud:</b> -107.477305         </div>         </div>`)[0];
+                popup_c794f9be89d2b189947aad8996841dee.setContent(html_41a1e551488101982311a6c44ce1f7db);
+            
+        
+
+        circle_marker_b6fd20304dc94910bead721799593f46.bindPopup(popup_c794f9be89d2b189947aad8996841dee)
+        ;
+
+        
+    
+    
+            circle_marker_b6fd20304dc94910bead721799593f46.bindTooltip(
+                `<div>
+                     Tienda 81 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b83ebe21e92d8043647c9a135fc458d = L.circleMarker(
+                [24.884939, -107.324532],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_1cc8ecc16d535178a441b217f60de7dd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3158f5d094fef0dcc14b00485d6a110e = $(`<div id="html_3158f5d094fef0dcc14b00485d6a110e" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 82</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.884939<br>             <b>Longitud:</b> -107.324532         </div>         </div>`)[0];
+                popup_1cc8ecc16d535178a441b217f60de7dd.setContent(html_3158f5d094fef0dcc14b00485d6a110e);
+            
+        
+
+        circle_marker_4b83ebe21e92d8043647c9a135fc458d.bindPopup(popup_1cc8ecc16d535178a441b217f60de7dd)
+        ;
+
+        
+    
+    
+            circle_marker_4b83ebe21e92d8043647c9a135fc458d.bindTooltip(
+                `<div>
+                     Tienda 82 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5def4e6e4803ab55f9dcf7cb9875032e = L.circleMarker(
+                [24.751588, -107.368003],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_0a7e0963d32ee605754d35a686cc34c1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c42aeedff476fce81f0da79caacfb83 = $(`<div id="html_8c42aeedff476fce81f0da79caacfb83" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 83</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.751588<br>             <b>Longitud:</b> -107.368003         </div>         </div>`)[0];
+                popup_0a7e0963d32ee605754d35a686cc34c1.setContent(html_8c42aeedff476fce81f0da79caacfb83);
+            
+        
+
+        circle_marker_5def4e6e4803ab55f9dcf7cb9875032e.bindPopup(popup_0a7e0963d32ee605754d35a686cc34c1)
+        ;
+
+        
+    
+    
+            circle_marker_5def4e6e4803ab55f9dcf7cb9875032e.bindTooltip(
+                `<div>
+                     Tienda 83 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_173414d736d130ceaf28cec5f8f97fd0 = L.circleMarker(
+                [24.863444, -107.38896],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_d0e177a5c2f567603e5b763f49c07a6e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_406dc1e818e8623552c3a70f71a21097 = $(`<div id="html_406dc1e818e8623552c3a70f71a21097" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 84</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.863444<br>             <b>Longitud:</b> -107.388960         </div>         </div>`)[0];
+                popup_d0e177a5c2f567603e5b763f49c07a6e.setContent(html_406dc1e818e8623552c3a70f71a21097);
+            
+        
+
+        circle_marker_173414d736d130ceaf28cec5f8f97fd0.bindPopup(popup_d0e177a5c2f567603e5b763f49c07a6e)
+        ;
+
+        
+    
+    
+            circle_marker_173414d736d130ceaf28cec5f8f97fd0.bindTooltip(
+                `<div>
+                     Tienda 84 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_520176c22d3f8b403202a689ce18cd9c = L.circleMarker(
+                [24.80593, -107.45163],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_810c48597e63d3af44233fccd60e977a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac80e0e8e886049992d83e27166d6b58 = $(`<div id="html_ac80e0e8e886049992d83e27166d6b58" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 85</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noroeste<br>             <b>Latitud:</b> 24.805930<br>             <b>Longitud:</b> -107.451630         </div>         </div>`)[0];
+                popup_810c48597e63d3af44233fccd60e977a.setContent(html_ac80e0e8e886049992d83e27166d6b58);
+            
+        
+
+        circle_marker_520176c22d3f8b403202a689ce18cd9c.bindPopup(popup_810c48597e63d3af44233fccd60e977a)
+        ;
+
+        
+    
+    
+            circle_marker_520176c22d3f8b403202a689ce18cd9c.bindTooltip(
+                `<div>
+                     Tienda 85 | Noroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e646a1527965113925e74fb06c6845b4 = L.circleMarker(
+                [24.718621, -107.320557],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_b524b8b84118d89f614c4b5bb1c83867 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c619e19d6d9f0af5b4a56107287ae08b = $(`<div id="html_c619e19d6d9f0af5b4a56107287ae08b" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 86</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Sureste<br>             <b>Latitud:</b> 24.718621<br>             <b>Longitud:</b> -107.320557         </div>         </div>`)[0];
+                popup_b524b8b84118d89f614c4b5bb1c83867.setContent(html_c619e19d6d9f0af5b4a56107287ae08b);
+            
+        
+
+        circle_marker_e646a1527965113925e74fb06c6845b4.bindPopup(popup_b524b8b84118d89f614c4b5bb1c83867)
+        ;
+
+        
+    
+    
+            circle_marker_e646a1527965113925e74fb06c6845b4.bindTooltip(
+                `<div>
+                     Tienda 86 | Sureste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c42e238a919a2c4684b3759027ad66b = L.circleMarker(
+                [24.880084, -107.37338],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_570102c9e3a5632374cd7b8e6d9d0380 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a3a946002192cf8538e57dc1d2afdfc8 = $(`<div id="html_a3a946002192cf8538e57dc1d2afdfc8" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 87</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.880084<br>             <b>Longitud:</b> -107.373380         </div>         </div>`)[0];
+                popup_570102c9e3a5632374cd7b8e6d9d0380.setContent(html_a3a946002192cf8538e57dc1d2afdfc8);
+            
+        
+
+        circle_marker_5c42e238a919a2c4684b3759027ad66b.bindPopup(popup_570102c9e3a5632374cd7b8e6d9d0380)
+        ;
+
+        
+    
+    
+            circle_marker_5c42e238a919a2c4684b3759027ad66b.bindTooltip(
+                `<div>
+                     Tienda 87 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2cd7dd3bdf9a2629eacc2d267359fdff = L.circleMarker(
+                [24.767806, -107.430158],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_3be2619eea57b672f7f03846d7a7f312 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11e4a303c240cb3712529bcd5d823809 = $(`<div id="html_11e4a303c240cb3712529bcd5d823809" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 88</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Suroeste<br>             <b>Latitud:</b> 24.767806<br>             <b>Longitud:</b> -107.430158         </div>         </div>`)[0];
+                popup_3be2619eea57b672f7f03846d7a7f312.setContent(html_11e4a303c240cb3712529bcd5d823809);
+            
+        
+
+        circle_marker_2cd7dd3bdf9a2629eacc2d267359fdff.bindPopup(popup_3be2619eea57b672f7f03846d7a7f312)
+        ;
+
+        
+    
+    
+            circle_marker_2cd7dd3bdf9a2629eacc2d267359fdff.bindTooltip(
+                `<div>
+                     Tienda 88 | Suroeste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_428dd797467fa89aaa5e4f301bf516a1 = L.circleMarker(
+                [24.845191, -107.320578],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_f407f6c5e2fb912f0c6a42aa7ec29964 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5f53f9e8b8b7e96b65f801c9aae3c1b = $(`<div id="html_f5f53f9e8b8b7e96b65f801c9aae3c1b" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 89</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.845191<br>             <b>Longitud:</b> -107.320578         </div>         </div>`)[0];
+                popup_f407f6c5e2fb912f0c6a42aa7ec29964.setContent(html_f5f53f9e8b8b7e96b65f801c9aae3c1b);
+            
+        
+
+        circle_marker_428dd797467fa89aaa5e4f301bf516a1.bindPopup(popup_f407f6c5e2fb912f0c6a42aa7ec29964)
+        ;
+
+        
+    
+    
+            circle_marker_428dd797467fa89aaa5e4f301bf516a1.bindTooltip(
+                `<div>
+                     Tienda 89 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1d529a858b9f3b5e47a9363e7a8dd6d5 = L.circleMarker(
+                [24.877417, -107.344025],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 1.5}
+            ).addTo(map_e606fb14a7a51ef5d2e167007a97f289);
+        
+    
+        var popup_76f7c080bb8f2e11bfb94532713eb4c7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cca058831b708b4a6a3fa6257b0e0a2a = $(`<div id="html_cca058831b708b4a6a3fa6257b0e0a2a" style="width: 100.0%; height: 100.0%;">         <div style="font-size: 13px;">             <b>Tienda 90</b><br>             <b>Tipo:</b> Tienda<br>             <b>Zona:</b> Noreste<br>             <b>Latitud:</b> 24.877417<br>             <b>Longitud:</b> -107.344025         </div>         </div>`)[0];
+                popup_76f7c080bb8f2e11bfb94532713eb4c7.setContent(html_cca058831b708b4a6a3fa6257b0e0a2a);
+            
+        
+
+        circle_marker_1d529a858b9f3b5e47a9363e7a8dd6d5.bindPopup(popup_76f7c080bb8f2e11bfb94532713eb4c7)
+        ;
+
+        
+    
+    
+            circle_marker_1d529a858b9f3b5e47a9363e7a8dd6d5.bindTooltip(
+                `<div>
+                     Tienda 90 | Noreste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            map_e606fb14a7a51ef5d2e167007a97f289.fitBounds(
+                [[24.774908, -107.309857], [24.846399, -107.380268], [24.731204, -107.468801], [24.711617, -107.326765], [24.820223, -107.358385], [24.704117, -107.306018], [24.866489, -107.457532], [24.736365, -107.463319], [24.760848, -107.395049], [24.786389, -107.441754], [24.822371, -107.472101], [24.758429, -107.426728], [24.791214, -107.342965], [24.739935, -107.397153], [24.818483, -107.49071], [24.821509, -107.465895], [24.71301, -107.310223], [24.893126, -107.338321], [24.760923, -107.480466], [24.836847, -107.41197], [24.724408, -107.400965], [24.706878, -107.318136], [24.751756, -107.367496], [24.762342, -107.395986], [24.809342, -107.463029], [24.893917, -107.344973], [24.8879, -107.321035], [24.81958, -107.315625], [24.717699, -107.460803], [24.709045, -107.434934], [24.777735, -107.44573], [24.865748, -107.428649], [24.756187, -107.391461], [24.728185, -107.339561], [24.71491, -107.302623], [24.854449, -107.460257], [24.701104, -107.336908], [24.841371, -107.354199], [24.854254, -107.485191], [24.771693, -107.476826], [24.872621, -107.37534], [24.76618, -107.487288], [24.762196, -107.434963], [24.845921, -107.372489], [24.877443, -107.405557], [24.723919, -107.357351], [24.852157, -107.387745], [24.854193, -107.401241], [24.804547, -107.414492], [24.705084, -107.478422], [24.706286, -107.372718], [24.762871, -107.398286], [24.881513, -107.450142], [24.782077, -107.34889], [24.74576, -107.484604], [24.75795, -107.467756], [24.88594, -107.338376], [24.826681, -107.325708], [24.860734, -107.462686], [24.878512, -107.392132], [24.861488, -107.320782], [24.763601, -107.47799], [24.745587, -107.414578], [24.863603, -107.327854], [24.70139, -107.397851], [24.783482, -107.455578], [24.723973, -107.432477], [24.888582, -107.435359], [24.803758, -107.359396], [24.772726, -107.305644], [24.892489, -107.449644], [24.79945, -107.439824], [24.756968, -107.492623], [24.821913, -107.399464], [24.710296, -107.444271], [24.881653, -107.452088], [24.728979, -107.402109], [24.89713, -107.451589], [24.834427, -107.347676], [24.747528, -107.354357], [24.773557, -107.373539], [24.826706, -107.392845], [24.718058, -107.33294], [24.764156, -107.462696], [24.708155, -107.381821], [24.835513, -107.496682], [24.802419, -107.454701], [24.829035, -107.465127], [24.838188, -107.422653], [24.887346, -107.472496], [24.768213, -107.477305], [24.884939, -107.324532], [24.751588, -107.368003], [24.863444, -107.38896], [24.80593, -107.45163], [24.718621, -107.320557], [24.880084, -107.37338], [24.767806, -107.430158], [24.845191, -107.320578], [24.877417, -107.344025]],
+                {}
+            );
+        
+</script>
+</html>
