@@ -1,0 +1,8 @@
+Librerias utilizadas en el proyecto
+    - pandas
+    - numpy
+    - scikit-learn
+    - openpyxl
+    - matplotlib
+    - seaborn
+    - scipy
