@@ -1,5 +1,10 @@
+Acerca de la evidencia subida del proyecto:
+  - Se subieron scripts, configuraciones y evidencias ligeras.
+  - Se dejo fuera datasets, builds, entornos virtuales y archivos generados grandes (muy pesados).
+
+
 Acerca del Dataset utilizado en el proyecto:
-  - 16 Alumnos 
-  - Aproximadamente 136 imagenes
-  - No se incluye por privacidad y peso del archivo
-  - Estructura esperada: ml/data/raw/alumno_xx
+  - 16 Alumnos. 
+  - Aproximadamente 136 imagenes.
+  - No se incluye por privacidad y peso del archivo.
+  - Estructura esperada: ml/data/raw/alumno_xx.
