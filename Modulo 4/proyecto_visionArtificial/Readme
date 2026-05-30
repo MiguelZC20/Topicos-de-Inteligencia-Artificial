@@ -1,0 +1,5 @@
+Acerca del Dataset utilizado en el proyecto:
+  - 16 Alumnos 
+  - Aproximadamente 136 imagenes
+  - No se incluye por privacidad y peso del archivo
+  - Estructura esperada: ml/data/raw/alumno_xx
