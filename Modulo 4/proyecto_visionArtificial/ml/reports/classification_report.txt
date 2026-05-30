@@ -1,0 +1,22 @@
+              precision    recall  f1-score   support
+
+   alumno_01       1.00      1.00      1.00         2
+   alumno_02       1.00      1.00      1.00         2
+   alumno_03       1.00      0.50      0.67         2
+   alumno_04       1.00      1.00      1.00         2
+   alumno_05       1.00      1.00      1.00         2
+   alumno_06       1.00      1.00      1.00         2
+   alumno_07       0.67      1.00      0.80         2
+   alumno_08       1.00      1.00      1.00         2
+   alumno_09       0.67      1.00      0.80         2
+   alumno_10       1.00      1.00      1.00         2
+   alumno_11       1.00      1.00      1.00         2
+   alumno_12       1.00      1.00      1.00         2
+   alumno_13       1.00      1.00      1.00         2
+   alumno_14       1.00      1.00      1.00         2
+   alumno_15       1.00      0.50      0.67         2
+   alumno_16       1.00      1.00      1.00         2
+
+    accuracy                           0.94        32
+   macro avg       0.96      0.94      0.93        32
+weighted avg       0.96      0.94      0.93        32
